@@ -3,7 +3,7 @@
 CEP Lookup é uma aplicação simples, desenvolvida em React.js, que permite consultar informações detalhadas de um CEP. Basta inserir o CEP no campo de entrada e a aplicação retornará dados como logradouro, bairro, cidade, estado, e outras informações relevantes.
 
 ![CEP LOOKUP](./cep-lookup.png)
->>>>>>> [Veja Funcionando >](https://andreas-yuji-fujiki.github.io/cep-lookup/)
+>>>>>>>>>>>>>> [Veja Funcionando >](https://andreas-yuji-fujiki.github.io/cep-lookup/) >>>>>>>>>>>>>>
 
 # Funcionalidades
 - **Consulta de CEP:** Insira um CEP e receba informações detalhadas.
