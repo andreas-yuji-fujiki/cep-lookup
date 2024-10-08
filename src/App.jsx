@@ -1,8 +1,13 @@
-function App () {
+// components import
+import HeroSection from "./Components/hero_section/HeroSection"
+import Footer from "./Components/footer/Footer"
+
+function App(){
   return(
-    <h1>
-      CEP Lookup!
-    </h1>
+    <div className="App">
+      <HeroSection/>
+      <Footer/>
+    </div>
   )
 }
 export default App

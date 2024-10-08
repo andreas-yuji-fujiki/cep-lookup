@@ -1,7 +1,7 @@
 {
   "homepage": "https://andreas-yuji-fujiki.github.io/cep-lookup",
   "name": "cep-lookup",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,6 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
