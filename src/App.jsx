@@ -1,8 +1,14 @@
-function App () {
+// components import
+import HeroSection from "/Components/HeroSection/HeroSection"
+import Footer from "/Components/Footer/Footer.JSX"
+
+function App(){
   return(
-    <h1>
-      CEP Lookup!
-    </h1>
+    <div className="App">
+      <HeroSection/>
+      <Footer/>
+      <h1>teste</h1>
+    </div>
   )
 }
 export default App
