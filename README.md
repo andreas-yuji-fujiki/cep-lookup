@@ -20,10 +20,10 @@ CEP Lookup é uma aplicação simples, desenvolvida em React.js, que permite con
 - **Via CEP API**
 - **Figma** (para design)
 
-## Licença
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
-
 ### By: Andreas Yuji
 - [Portfolio](https://andreas-yuji-fujiki.github.io/portfolio)
 - [GITHUB](https://github.com/andreas-yuji-fujiki)
 - [LINKEDIN](www.linkedin.com/in/andreas-yuji-fujiki-a08633321)
+
+## Licença
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
