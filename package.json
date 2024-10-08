@@ -1,6 +1,6 @@
 {
-  "name": "cep-lookup",
   "homepage": "https://andreas-yuji-fujiki.github.io/cep-lookup",
+  "name": "cep-lookup",
   "private": true,
   "version": "0.0.0",
   "type": "module",
