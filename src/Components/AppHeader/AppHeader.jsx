@@ -18,7 +18,7 @@ function AppHeader(){
                     </small>
                 </MainTitle>
                 <MainParagraph>
-                    Consulta de código de endereçamento postal:
+                    Consulta de código de endereçamento postal
                 </MainParagraph>
             </main>
         </AppHeaderContainer>

@@ -6,21 +6,17 @@ export const MainTitle = styled.h1`
     align-items: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    opacity: 0.85;
     margin-bottom: 0;
 
     .icon{
         fill: #5ed3f3;
     }
     small{
-        font-size: 14.5px;
-
-        display: flex;
-        align-self: flex-end;
-        gap: 6px;
-        
+        font-size: 12.5px;
         position: relative;
-        top: -8px;
+        top: -28px;
+        left: -220px;
+        gap: 6px;
         opacity: 0.6;
     }
     small .react-span{
@@ -30,10 +26,10 @@ export const MainTitle = styled.h1`
 
 export const MainParagraph = styled.p`
     text-transform: uppercase;
-    padding-left: 20px;
     font-size: 16px;
     font-weight: bolder;
-    opacity: 0.6;
+    opacity: 0.88;
+    margin-bottom: 10px;
 `
 
 export const AppHeaderContainer = styled.div`
