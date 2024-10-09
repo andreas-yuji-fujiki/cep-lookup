@@ -15,12 +15,11 @@ CEP Lookup é uma aplicação simples, desenvolvida em React.js, que permite con
 ## Tecnologias Utilizadas
 - **React.js**
 - **Javascript**
-- **Tailwind CSS**
-- **React Router**
+- **Pico CSS**
 - **Axios**
+- **React Router**
 - **Via CEP API**
 - **Vite**
-- **Figma** (para design)
 
 ### By: Andreas Yuji
 - [Portfolio](https://andreas-yuji-fujiki.github.io/portfolio)
