@@ -37,7 +37,7 @@ function InputCard(){
                     type="text"
                     name="CepInput"
                     autoComplete="off"
-                    placeholder="Digite o CEP"
+                    placeholder="Digite um CEP para começar"
                     maxLength="9"
                     value={cep}
                     onChange={handleChange}

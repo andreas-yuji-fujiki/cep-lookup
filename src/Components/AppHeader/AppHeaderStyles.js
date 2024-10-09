@@ -1,34 +1,40 @@
 import styled from "styled-components";
 
 export const AppHeaderContainer = styled.div`
-    margin: -80px 0 10px 0;
+    margin-bottom: 16px;
     display: flex;
     justify-content: center;
     position: relative;
-    left: 45px;
+    left: 64px;
+    opacity: 0.75;
 `
 
 export const MainTitle = styled.h1`
     display: flex;
-    gap: 10px;
     align-items: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin-bottom: 8px;
+    margin-left: 16px;
 
     .icon{
         fill: #5ed3f3;
+        margin-right: 16px;
     }
     small{
         font-size: 12.5px;
         position: relative;
-        top: -28px;
-        left: -220px;
+        top: -40px;
+        left: -240px;
         gap: 6px;
         opacity: 0.6;
     }
-    small .react-span{
+    small .andreas-span{
         color: #5ed3f3;
+        text-decoration: none;
+    }
+    small .andreas-span:hover{
+        text-decoration: underline;
     }
 `
 

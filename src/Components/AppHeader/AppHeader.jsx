@@ -14,7 +14,7 @@ function AppHeader(){
                     <FaSearch className="icon"/>
                     CEP Lookup
                     <small>
-                        made in <span className="react-span">react.js!</span>
+                        made by <a href="#" className="andreas-span">andreas.yuji</a>
                     </small>
                 </MainTitle>
                 <MainParagraph>

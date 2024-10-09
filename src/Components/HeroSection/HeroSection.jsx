@@ -9,6 +9,7 @@ function HeroSection(){
     return(
         <HeroSectionContainer>
             <InputCard/>
+            <OutputCard/>
         </HeroSectionContainer>
     )
 }

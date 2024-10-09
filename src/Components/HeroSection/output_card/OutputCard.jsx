@@ -1,6 +1,15 @@
+// styled components
+import { OutputContainer } from "./OutputCardStyles"
+import { OutputImage } from "./OutputCardStyles"
+
+// assets
+import TrySearchImage from '../../../Assets/try-search.svg'
+
 function OutputCard(){
     return(
-        <h2>output card</h2>
+        <OutputContainer>
+            <OutputImage src={TrySearchImage} />
+        </OutputContainer>
     )
 }
 export default OutputCard
