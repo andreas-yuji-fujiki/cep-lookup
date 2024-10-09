@@ -15,7 +15,7 @@ function InputCard(){
         e.preventDefault();
         const cepPattern = /^\d{5}-?\d{3}$/;
         if (!cepPattern.test(cep)) {
-            setError('Por favor, insira um CEP válido (8 dígitos no formato XXXXX-XXX).');
+            setError('Por favor, insira um CEP válido (8 dígitos no formato XXXXX-XXX)');
             return;
         }
         setError('');
@@ -42,11 +42,11 @@ function InputCard(){
                     value={cep}
                     onChange={handleChange}
                 />
-                {error && <small style={{ color: 'red' }}>{error}</small>}
                 <button type="submit">
                     <SlMagnifier/>
                 </button>
             </fieldset>
+            {error && <small style={{ color: '#ff0000' }}>{error}</small>}
         </InputCardForm>
     )
 }

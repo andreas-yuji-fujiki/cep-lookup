@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const AppHeaderContainer = styled.div`
+    margin: -80px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 45px;
+`
+
 export const MainTitle = styled.h1`
     display: flex;
     gap: 10px;
@@ -30,8 +38,4 @@ export const MainParagraph = styled.p`
     font-weight: bolder;
     opacity: 0.88;
     margin-bottom: 10px;
-`
-
-export const AppHeaderContainer = styled.div`
-    margin-top: -80px;
 `

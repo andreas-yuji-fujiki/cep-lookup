@@ -5,4 +5,7 @@ export const InputCardForm = styled.form`
         margin: 0;
         margin-bottom: 10px;
     }
+    fieldset input, fieldset button{
+        border-radius: 50px;
+    }
 `
