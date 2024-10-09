@@ -1,6 +1,7 @@
 // components import
 import AppHeader from "./Components/AppHeader/AppHeader"
-import AppFooter from "./Components/AppFooter/Footer"
+import HeroSection  from "./Components/HeroSection/HeroSection"
+import AppFooter from "./Components/AppFooter/AppFooter"
 
 // styled components
 import { AppContainer } from "./AppStyles"
@@ -13,6 +14,7 @@ function App(){
     <>
       <AppContainer>
         <AppHeader/>
+        <HeroSection/>
         {/* <AppFooter/> */}
       </AppContainer>
     </>

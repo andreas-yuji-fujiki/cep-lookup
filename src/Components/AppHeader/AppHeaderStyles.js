@@ -37,5 +37,5 @@ export const MainParagraph = styled.p`
 `
 
 export const AppHeaderContainer = styled.div`
-    margin-top: -120px;
+    margin-top: -80px;
 `
