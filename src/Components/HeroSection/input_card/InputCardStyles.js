@@ -12,3 +12,17 @@ export const InputCardForm = styled.form`
         border-radius: 50px;
     }
 `
+
+export const ErrorLog = styled.p`
+    margin: 0;
+    padding: 0;
+
+    margin-top: -26px;
+    position: relative;
+    top: 8px;
+
+    text-align: center;
+    font-size: 19px;
+
+    opacity: 0.7;
+`
