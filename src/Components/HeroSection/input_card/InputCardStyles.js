@@ -14,10 +14,9 @@ export const InputCardForm = styled.form`
 `
 
 export const ErrorLog = styled.p`
-    margin: 0;
+    margin: -12px 0 32px 0;
     padding: 0;
 
-    margin-top: -26px;
     position: relative;
     top: 8px;
 

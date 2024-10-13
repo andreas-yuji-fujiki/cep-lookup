@@ -6,9 +6,6 @@ import AppFooter from "./Components/AppFooter/AppFooter"
 // styled components
 import { AppContainer } from "./AppStyles"
 
-// pico css framework
-import '@picocss/pico'
-
 function App(){
   return(
     <>

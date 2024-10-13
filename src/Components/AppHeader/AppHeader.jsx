@@ -1,5 +1,5 @@
 // styled components
-import { MainTitle } from "./AppHeaderStyles"
+import { MainTitles } from "./AppHeaderStyles"
 import { MainParagraph } from "./AppHeaderStyles";
 import { AppHeaderContainer } from "./AppHeaderStyles";
 
@@ -10,13 +10,16 @@ function AppHeader(){
     return(
         <AppHeaderContainer>
             <main>
-                <MainTitle>
-                    <FaSearch className="icon"/>
-                    CEP Lookup
-                    <small>
-                        made by <a href="#" className="andreas-span">andreas.yuji</a>
-                    </small>
-                </MainTitle>
+                <MainTitles>
+                    {/* <h2> 
+                        Made by <a href="#" className="andreas-span">andreas.yuji</a>
+                    </h2> */}
+                    
+                    <h1>
+                        <FaSearch className="icon"/>
+                        CEP Lookup
+                    </h1>
+                </MainTitles>
                 <MainParagraph>
                     Consulta de código de endereçamento postal
                 </MainParagraph>

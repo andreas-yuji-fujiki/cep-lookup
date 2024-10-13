@@ -1,47 +1,47 @@
 import styled from "styled-components";
 
 export const AppHeaderContainer = styled.div`
-    margin-bottom: 16px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 64px;
-    opacity: 0.75;
+    *{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    gap: 18px;
 `
 
-export const MainTitle = styled.h1`
+export const MainTitles = styled.div`
     display: flex;
-    align-items: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    flex-direction: column;
+    gap: 8px;
     margin-bottom: 8px;
-    margin-left: 16px;
+
+    h2{
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700;
+        opacity: 0.7;
+    }
+
+    h1{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        opacity: 0.8;
+    }
 
     .icon{
-        fill: #5ed3f3;
-        margin-right: 16px;
-    }
-    small{
-        font-size: 12.5px;
-        position: relative;
-        top: -40px;
-        left: -240px;
-        gap: 6px;
-        opacity: 0.6;
-    }
-    small .andreas-span{
-        color: #5ed3f3;
-        text-decoration: none;
-    }
-    small .andreas-span:hover{
-        text-decoration: underline;
+        width: 35px;
+        fill: #499aae;
     }
 `
 
 export const MainParagraph = styled.p`
     text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0.7;
     font-size: 16px;
-    font-weight: bolder;
-    opacity: 0.88;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 `
